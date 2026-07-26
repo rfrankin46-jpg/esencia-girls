@@ -1,0 +1,164 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#FAFAFA;
+    color:#2D2D2D;
+    line-height:1.6;
+}
+
+header{
+    background:#DD6A8C;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+header h1{
+    margin-bottom:15px;
+    font-size:40px;
+}
+
+nav{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    padding:10px;
+}
+
+nav a:hover{
+    color:#FDEEEF;
+}
+
+.banner{
+    background:#FDEEEF;
+    padding:70px 20px;
+    text-align:center;
+}
+
+.banner h2{
+    font-size:40px;
+    color:#DD6A8C;
+    margin-bottom:20px;
+}
+
+.banner p{
+    max-width:700px;
+    margin:auto;
+    margin-bottom:25px;
+}
+
+.boton{
+    display:inline-block;
+    background:#DD6A8C;
+    color:white;
+    text-decoration:none;
+    padding:12px 25px;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+.boton:hover{
+    background:#EFAAC4;
+}
+
+.destacados{
+    width:90%;
+    max-width:1200px;
+    margin:50px auto;
+    text-align:center;
+}
+
+.destacados h2{
+    color:#DD6A8C;
+    margin-bottom:30px;
+}
+
+.productos{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:30px;
+}
+
+.producto{
+    background:white;
+    width:280px;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 0 10px rgba(0,0,0,.15);
+}
+
+.producto img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+.producto h3{
+    margin-top:15px;
+    margin-bottom:10px;
+}
+
+.producto p{
+    color:#DD6A8C;
+    font-weight:bold;
+    margin-bottom:15px;
+}
+
+section{
+    width:90%;
+    max-width:1000px;
+    margin:40px auto;
+}
+
+section h2{
+    color:#DD6A8C;
+    margin-bottom:15px;
+}
+
+section p{
+    margin-bottom:20px;
+}
+
+footer{
+    background:#DD6A8C;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:50px;
+}
+
+
+@media(max-width:768px){
+
+header h1{
+    font-size:30px;
+}
+
+.banner h2{
+    font-size:28px;
+}
+
+.producto{
+    width:100%;
+}
+
+nav{
+    flex-direction:column;
+}
+
+}
